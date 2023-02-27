@@ -4,7 +4,7 @@ from slack_sdk.errors import SlackApiError
 from datetime import datetime
 
 # Set the bot token and channel name
-client = WebClient(token=os.environ['xoxb-4861105113075-4884936352320-4sNd9hbTh07xe3JOxLw9ZXl7'])
+client = WebClient(token=os.environ['xoxb-4861105113075-4884936352320-4sNd9hbTh07xe3JOxLw9ZXl7'])     # This is the corresponding to my devcom assgt workspace (ofc to be changed later)
 channel = "#general"
 
 # Get today's date
